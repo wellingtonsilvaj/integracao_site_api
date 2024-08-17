@@ -1,0 +1,130 @@
+.maxWidth {
+    max-width: 1300px;
+    padding: 0 10px;
+    margin: auto;
+}
+
+.content {
+    padding: 50px 0;
+}
+
+@media (max-width: 690px) {
+    .content {
+        padding: 20px 0;
+    }
+}
+
+/* Inicio Pag sobre empresa*/
+.about {
+    /*Editando a cor do texo */
+    color: var(--site-color);
+    /*Editando a cor de fundo*/
+    background: var(--main-color);
+    /*Adicionando a fonte do google*/
+    font-family: 'Quicksand', 'Open Sans';
+}
+
+.about .title{
+    /*Centralizar titulo*/
+    text-align: center;
+    /*Margem em relação ao rodapé*/
+    margin-bottom: 50px;
+    /*Espessura da fonte*/
+    font-weight: 400;
+    /*Tamanho da fonte*/
+    font-size: 35px;
+    padding-top: 50px;
+
+}
+
+.about .aboutContent {
+    /*deixar a imagem no canto da tela*/
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /*colocar espaço entre os elementos*/
+    justify-content: space-between;
+    /*Acresentar margem em relação ao rodape*/
+    margin-bottom: 50px;
+    /*Cor de fundo*/
+    background: var(--third-color);
+    /*Arredondar a bordar da imagem*/
+    border-radius: 6px;
+    padding: 30px;
+}
+
+.about .aboutContent .left {
+    /*Indicar quanto a imagem deve ocupar na tela*/
+    width: 40%;
+    
+}
+/*personaliza a imagem*/
+.about .aboutContent .left img {
+    /*Largura da imagem*/
+    width: 400px;
+    /*Altura da imagem*/
+    height: 500px;
+    /**/
+    object-fit: cover;
+    /*Arredondar borda*/
+    border-radius: 6px;
+}
+
+/*Personalizar a lateral direita*/
+.about .aboutContent .right {
+    width: 60%;
+}
+
+/*Personalizar texto da lateral direita*/
+.about .aboutContent .right .text {
+    /*Tamanho da fonte*/
+    font-size: 25px;
+    /*Espessura da fonte*/
+    font-weight: 400px;
+    /*Margin em relação ao rodapé*/
+    margin-bottom: 10px;
+}
+
+/*Personalizar paragrafo*/
+.about .aboutContent .right p {
+    /*Justificar o texto*/
+    text-align: justify;
+}
+
+/*Organizar tamanho da tela para dispositivos menores*/
+@media(max-width: 1104px){
+    .about .aboutContent .left img {
+        /*Largura da imagem*/
+        width: 300px;
+        /*Altua da imagem*/
+        height: 500px;
+    }
+    .about .aboutContent .right {
+        padding-left: 10px;
+    }
+}
+
+@media (max-width: 947px) {
+    .about .aboutContent .column {
+        width: 100%;
+    }
+    /*Personalizar a imagem*/
+    .about .aboutContent .left {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto 60px;      
+    }
+    /*Personalizar texto para dispositivos menores*/
+    .about .aboutContent .right {
+        flex: 100%;
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 740px) {
+    .about .title {
+        margin-top: 50px;
+    }
+}
+
+/*Fim Pag sobre empresa*/

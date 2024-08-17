@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Quicksand:wght@400;500;600;700&family=Roboto+Slab:wght@400;500;600&family=Teko:wght@300;400;500;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root {
+    --main-color: rgb(0, 0, 0);
+    --site-color: rgb(0, 212, 0);
+    --active-color: #173ca1;
+    --first-color: #005e08;
+    --second-color: #05138d;
+    --third-color: #1b202a;
+}
+
+body {
+    background-color: var(--main-color);
+    color: var(--site-color);
+    /*font-family: 'Quicksand', 'Open Sans';*/
+}

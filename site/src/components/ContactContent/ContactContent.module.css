@@ -1,0 +1,61 @@
+/*Inicio da pagina contato*/
+
+
+/*Personalizar coluna */
+.column {
+    width: calc(50% - 30px);
+}
+
+/*Deixar conteudo justificado/alinhado*/
+.left p {
+    text-align: justify;
+}
+
+/*Deixar um espaço entre o conteudo e os icons*/
+.left .icons {
+    margin: 10px 0;
+}
+
+/*Personalizar as linhas*/
+.row {
+    display: flex;
+    height: 65px;
+    align-items: center;
+}
+
+/*Personalizar distancia lateral dos icon*/
+.row .info {
+    margin-left: 30px;
+}
+
+/*Personlizar icones*/
+.row i {
+    font-size: 25px;
+    color: var(--active-color);
+}
+
+/*Personalizar titulo do icons*/
+.info .head {
+    font-weight: 500;
+}
+
+.info .subTitle {
+    color: var(--site-color);
+}
+
+
+/*Ajustar Pagina para disposiivos menores*/
+@media (max-width: 947px) {
+    .column {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+}
+
+@media(max-width: 500px) {
+    .title {
+        margin-top: 50px;
+    }   
+ }
+
+/*Fim da página contato*/

@@ -1,0 +1,96 @@
+.maxWidth {
+    max-width: 1300px;
+    padding: 0 10px;
+    margin: auto;
+}
+
+.content {
+    padding: 50px 0;
+}
+
+@media (max-width: 690px) {
+    .content {
+        padding: 20px 0;
+    }
+}
+
+/*Inicio serviço*/
+.top .topContent a:hover {
+    color: var(--site-color);
+    background: none;
+}
+
+.services {
+    color: var(--site-color);
+    background-color: var(--main-color);
+    font-family: 'Quicksand', 'Open Sans';
+    margin: 60px ;
+}
+
+.services .title{
+    text-align: center;
+    margin: 40px 0;
+    font-weight: 400;
+    font-size: 35px;
+}
+
+.services .servContent {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.services .servContent .card {
+    width: calc(33% - 20px);
+    background: var(--third-color);
+    text-align: center;
+    border-radius: 6px;
+    padding: 50px 25px;
+    cursor: pointer;
+    transition: all 0.8s ease;
+}
+
+/* Alterar a cor de fundo do cartão */
+.services .servContent .card:hover {
+    background-color: var(--active-color);
+}
+
+.services .servContent .card i {
+    font-size: 50px;
+    color: var(--active-color);
+    transition: all 0.3s ease;
+}
+
+.services .servContent .card .box {
+    transition: all 0.3s ease;
+}
+
+.services .servContent .card:hover .box{
+    transform: scale(1.05);
+}
+
+.services .servContent .card:hover i {
+    color: var(--site-color);
+}
+
+.services .servContent .card .text {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+
+@media (max-width: 947px) {
+    .services .servContent .card {
+        width: calc(50% - 10px);
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 690px) {
+    .services .servContent .card {
+        width: 100%;
+    }
+}
+
+/*Fim Serviço*/

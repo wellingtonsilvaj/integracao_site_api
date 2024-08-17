@@ -1,0 +1,43 @@
+
+.maxWidth {
+    max-width: 1300px;
+    padding: 0 10px;
+    margin: auto;
+}
+
+.content {
+    padding: 50px 0;
+}
+
+@media (max-width: 690px) {
+    .content {
+        padding: 20px 0;
+    }
+}
+
+/*Inicio da pagina contato*/
+
+.contact {
+    color: var(--site-color);
+    background-color: var(--main-color);
+    font-family: 'Quicksand', 'Open Sans';
+}
+
+/*Personalizar o titulo*/
+.contact .title {
+    text-align: center;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    font-weight: 400;
+    font-size: 35px;
+}
+
+/*Personalizar area do espaço entre os elementos*/
+.contact .contactContent {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*Fim da página contato*/
