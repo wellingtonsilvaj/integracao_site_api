@@ -17,7 +17,7 @@ const ContactContent = ({contentsContacts}) => {
                         {contentsContacts.titleCompany}
                     </div>
                     <div className={styles.subTitle}>
-                    {contentsContacts.titleCompany}
+                    {contentsContacts.descCompany}
                     </div>
                 </div>
             </div>

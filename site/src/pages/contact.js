@@ -60,7 +60,7 @@ export default function Contact() {
         <Menu />
         <section className={`${styles.content} ${styles.contact}`}>
           <div className={styles.maxWidth}>
-            <h2 className={styles.title}>Contato</h2>
+            <h2 className={styles.title}>{contentsContacts.titleContact}</h2>
             <div className={styles.contactContent}>
               <ContactContent contentsContacts={contentsContacts} />
               <ContactForm  contentsContacts={contentsContacts}/>

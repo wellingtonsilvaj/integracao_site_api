@@ -14,12 +14,6 @@ const yup = require('yup');
 // A aplicação externa deve indicar que está enviado os dados em formato de objeto: Content-Type: application/json
 
 // Dados em formato de objeto
-{
-    "name": "Cesar",
-    "email": "cesar@celke.com.br",
-    "subject": "Assunto",
-    "content": "Conteúdo"
-}
 */
 router.post("/", async (req, res) => {
 
