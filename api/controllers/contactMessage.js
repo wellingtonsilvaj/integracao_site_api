@@ -17,6 +17,16 @@ const yup = require('yup');
 */
 router.post("/", async (req, res) => {
 
+
+    //Chmar a função para pausar o processamento durante 3 segundos
+    await sleep(1000);
+    //Função para pausar o processamento durante 3 segundos
+    function sleep(ms){
+        return new Promise((resolve) => {
+            setTimeout(resolve, ms);
+        });
+    }
+
     // Receber os dados enviados no corpo da requisição
     var data = req.body;
 
